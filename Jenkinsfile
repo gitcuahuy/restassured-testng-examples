@@ -15,6 +15,7 @@ pipeline {
 
         stage('Clear file') {
             steps {
+            	sh "chmod +x mvnw"
                 sh "./mvnw clean"
             }
         }
