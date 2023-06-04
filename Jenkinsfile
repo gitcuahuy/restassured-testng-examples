@@ -29,7 +29,7 @@ pipeline {
 
         stage('Report ') {
           steps {
-            archiveArtifacts artifacts: '/reports/*.html', fingerprint: true
+            archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
           }
         }
     }
