@@ -15,7 +15,7 @@ pipeline {
 
         stage('Clear file') {
             steps {
-                sh " ./mvnw clean"
+                sh "./mvnw clean"
             }
         }
 
