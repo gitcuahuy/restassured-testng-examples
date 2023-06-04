@@ -22,6 +22,7 @@ pipeline {
 
         stage('Test') {
           steps {
+            sh "./mvnw compile"
             sh "./mvnw test  -DsuiteXmlFile=./test-suite/DemoTestSuite.xml"
           }
         }

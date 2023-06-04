@@ -3,9 +3,10 @@ package anhtester.com.listeners;
 import anhtester.com.reports.ExtentReportManager;
 import anhtester.com.utils.Log;
 import com.aventstack.extentreports.Status;
-import org.testng.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.testng.ISuite;
+import org.testng.ISuiteListener;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
 import static org.apache.commons.lang3.StringUtils.repeat;
 
